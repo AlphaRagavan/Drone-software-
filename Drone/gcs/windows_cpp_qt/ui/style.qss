@@ -1,0 +1,44 @@
+/* Modern Dark Aerospace Styling for NIDAR GCS on Windows 10/11 */
+QWidget {
+    background-color: #0d1117;
+    color: #e6edf3;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 13px;
+}
+
+QSplitter::handle {
+    background-color: #30363d;
+    width: 3px;
+    height: 3px;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #161b22;
+    width: 8px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #30363d;
+    min-height: 20px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #58a6ff;
+}
+
+QPushButton {
+    background-color: #21262d;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 6px 12px;
+    color: #c9d1d9;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background-color: #30363d;
+    border-color: #8b949e;
+}
